@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dty272lcjejdk"]
+
+[ext_resource type="Texture2D" uid="uid://bcif5umqfmlhx" path="res://Art/kenney_boardgame-pack/PNG/Cards/EmptyCard.png" id="1_pyj7v"]
+[ext_resource type="Script" path="res://Scripts/card_slot.gd" id="2_52jp7"]
+
+[node name="Slot" type="Control"]
+custom_minimum_size = Vector2(150, 133)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite" type="TextureRect" parent="."]
+self_modulate = Color(1, 1, 1, 0.6)
+layout_mode = 0
+offset_left = 20.0
+offset_top = 8.0
+offset_right = 73.0
+offset_bottom = 80.0
+scale = Vector2(0.614425, 0.614425)
+texture = ExtResource("1_pyj7v")
+script = ExtResource("2_52jp7")
+
+[connection signal="gui_input" from="Sprite" to="Sprite" method="_on_slot_clicked"]

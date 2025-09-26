@@ -1,0 +1,220 @@
+[gd_scene load_steps=58 format=3 uid="uid://dt64eg22liqya"]
+
+[ext_resource type="Texture2D" uid="uid://tqv3yxp8vcy6" path="res://Art/Backgrounds/Premium Vector _ Poker table background in green color.jpg" id="1_7ulq2"]
+[ext_resource type="Script" path="res://Scripts/deck.gd" id="2_7bamx"]
+[ext_resource type="PackedScene" uid="uid://c0yhg6aybkixg" path="res://Scenes/card.tscn" id="2_e6lx6"]
+[ext_resource type="Texture2D" uid="uid://b2jh4xv6lgfqg" path="res://Art/kenney_boardgame-pack/PNG/Cards/c_2_-2.png" id="3_du01k"]
+[ext_resource type="Texture2D" uid="uid://ckbtjax1u4en8" path="res://Art/CardSprites/PNG/Cards (large)/card_empty.png" id="3_q7xum"]
+[ext_resource type="PackedScene" uid="uid://dty272lcjejdk" path="res://Scenes/slot.tscn" id="4_2qwdl"]
+[ext_resource type="Texture2D" uid="uid://depcwdmrgtd72" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs3_3.png" id="4_210ah"]
+[ext_resource type="Texture2D" uid="uid://b07ohhm3xbf6m" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs4_4.png" id="5_7bowh"]
+[ext_resource type="Texture2D" uid="uid://2vkake601j4t" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs5_5.png" id="6_s2gug"]
+[ext_resource type="Texture2D" uid="uid://cldirdvjnv8db" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs6_6.png" id="7_p1l8d"]
+[ext_resource type="Texture2D" uid="uid://c6ke68yb6sf75" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs7_7.png" id="8_3i51l"]
+[ext_resource type="Texture2D" uid="uid://c0qqpq5otkutu" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs8_8.png" id="9_skj2l"]
+[ext_resource type="Texture2D" uid="uid://5ebnxgyv7bam" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs9_9.png" id="10_tg385"]
+[ext_resource type="Texture2D" uid="uid://cjwprv5b42rvl" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubs10_10.png" id="11_jqhms"]
+[ext_resource type="Texture2D" uid="uid://b2cm3267fusu1" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubsA_1.png" id="12_6i1yq"]
+[ext_resource type="Texture2D" uid="uid://ci0rgouv1xgdk" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubsJ_10.png" id="13_ugu11"]
+[ext_resource type="Texture2D" uid="uid://budpnaunwpjsr" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubsK_0.png" id="14_0oq8i"]
+[ext_resource type="Texture2D" uid="uid://gic2fopjjvmx" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardClubsQ_10.png" id="15_3nxr8"]
+[ext_resource type="Texture2D" uid="uid://cb6luj6fpph4o" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds2_-2.png" id="16_v4hif"]
+[ext_resource type="Texture2D" uid="uid://cde80fg6uvcik" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds3_3.png" id="17_8sly8"]
+[ext_resource type="Texture2D" uid="uid://doykb2g3ihh6d" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds4_4.png" id="18_fwco0"]
+[ext_resource type="Texture2D" uid="uid://dhasf1jv1w7fs" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds5_5.png" id="19_l4qql"]
+[ext_resource type="Texture2D" uid="uid://c3buxu5wlysin" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds6_6.png" id="20_6lcmb"]
+[ext_resource type="Texture2D" uid="uid://cpoxfnt21higa" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds7_7.png" id="21_belko"]
+[ext_resource type="Texture2D" uid="uid://smnhcl3jwlfo" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds8_8.png" id="22_bse27"]
+[ext_resource type="Texture2D" uid="uid://gk2e4w66a78" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds9_9.png" id="23_e736r"]
+[ext_resource type="Texture2D" uid="uid://3q64gksf2qb2" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamonds10_10.png" id="24_s1woa"]
+[ext_resource type="Texture2D" uid="uid://llsrs1xlbskw" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamondsA_1.png" id="25_herqt"]
+[ext_resource type="Texture2D" uid="uid://0y1vkg13p0vj" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamondsJ_10.png" id="26_mu0vg"]
+[ext_resource type="Texture2D" uid="uid://dq86iloay5t8v" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamondsK_0.png" id="27_dup1j"]
+[ext_resource type="Texture2D" uid="uid://dq607lt7qqyai" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardDiamondsQ_10.png" id="28_saif1"]
+[ext_resource type="Texture2D" uid="uid://dtyxnexa1cu1u" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts2_-2.png" id="29_vy1ap"]
+[ext_resource type="Texture2D" uid="uid://vhrdeavgbfsh" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts3_3.png" id="30_y3574"]
+[ext_resource type="Texture2D" uid="uid://dbmxsmq7hsw87" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts4_4.png" id="31_qtqsc"]
+[ext_resource type="Texture2D" uid="uid://50l7sdhen51p" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts5_5.png" id="32_ic18m"]
+[ext_resource type="Texture2D" uid="uid://cksmx5o2hujn3" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts6_6.png" id="33_yx6pv"]
+[ext_resource type="Texture2D" uid="uid://cm4uoapf1xlgg" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts7_7.png" id="34_nt1i4"]
+[ext_resource type="Texture2D" uid="uid://dyhm43qgwrajb" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts8_8.png" id="35_vomo2"]
+[ext_resource type="Texture2D" uid="uid://bponjvik0cfbo" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts9_9.png" id="36_dvxw4"]
+[ext_resource type="Texture2D" uid="uid://vkjoryeh7fo7" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHearts10_10.png" id="37_tcok3"]
+[ext_resource type="Texture2D" uid="uid://bhmpu4kma3ih" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHeartsA_1.png" id="38_gr4kb"]
+[ext_resource type="Texture2D" uid="uid://n2sm0e8p8igl" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHeartsJ_10.png" id="39_j1byw"]
+[ext_resource type="Texture2D" uid="uid://dojusmmfxvk8w" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHeartsK_0.png" id="40_5yccs"]
+[ext_resource type="Texture2D" uid="uid://d1h3niclkqiwb" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardHeartsQ_10.png" id="41_6v7xa"]
+[ext_resource type="Texture2D" uid="uid://cbkabknm73trh" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades2_-2.png" id="42_f085d"]
+[ext_resource type="Texture2D" uid="uid://crfjqh3vvj2l7" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades3_3.png" id="43_fo2s6"]
+[ext_resource type="Texture2D" uid="uid://dsdcfqq2tihhv" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades4_4.png" id="44_p8y4y"]
+[ext_resource type="Texture2D" uid="uid://cwoe7koc4rple" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades5_5.png" id="45_18xqt"]
+[ext_resource type="Texture2D" uid="uid://cfkvp1es5c80r" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades6_6.png" id="46_m62u4"]
+[ext_resource type="Texture2D" uid="uid://c4vjh3ee13821" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades7_7.png" id="47_n0j21"]
+[ext_resource type="Texture2D" uid="uid://b33djij2gxq47" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades8_8.png" id="48_lt7yl"]
+[ext_resource type="Texture2D" uid="uid://c7r18a28su41q" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades9_9.png" id="49_pc7nb"]
+[ext_resource type="Texture2D" uid="uid://c1m2bhso8d51p" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpadesA_1.png" id="50_pd4wb"]
+[ext_resource type="Texture2D" uid="uid://lh3al1qpbsc0" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpadesJ_10.png" id="51_ko125"]
+[ext_resource type="Texture2D" uid="uid://ctgui6ca84ggi" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpades_10.png" id="52_vc7tq"]
+[ext_resource type="Texture2D" uid="uid://n687fscd86vt" path="res://Art/kenney_boardgame-pack/PNG/Cards/s_Q_10.png" id="53_8vnb0"]
+[ext_resource type="Texture2D" uid="uid://b8wpqkif5h8hr" path="res://Art/kenney_boardgame-pack/PNG/Cards/cardSpadesK_0.png" id="54_vyghi"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_7ulq2")
+
+[node name="CardPile" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 73.0
+offset_top = 144.0
+offset_right = 234.0
+offset_bottom = -107.0
+grow_vertical = 2
+script = ExtResource("2_7bamx")
+cardDeck = [ExtResource("3_du01k"), ExtResource("4_210ah"), ExtResource("5_7bowh"), ExtResource("6_s2gug"), ExtResource("7_p1l8d"), ExtResource("8_3i51l"), ExtResource("9_skj2l"), ExtResource("10_tg385"), ExtResource("11_jqhms"), ExtResource("12_6i1yq"), ExtResource("13_ugu11"), ExtResource("14_0oq8i"), ExtResource("15_3nxr8"), ExtResource("16_v4hif"), ExtResource("17_8sly8"), ExtResource("18_fwco0"), ExtResource("19_l4qql"), ExtResource("20_6lcmb"), ExtResource("21_belko"), ExtResource("22_bse27"), ExtResource("23_e736r"), ExtResource("24_s1woa"), ExtResource("25_herqt"), ExtResource("26_mu0vg"), ExtResource("27_dup1j"), ExtResource("28_saif1"), ExtResource("29_vy1ap"), ExtResource("30_y3574"), ExtResource("31_qtqsc"), ExtResource("32_ic18m"), ExtResource("33_yx6pv"), ExtResource("34_nt1i4"), ExtResource("35_vomo2"), ExtResource("36_dvxw4"), ExtResource("37_tcok3"), ExtResource("38_gr4kb"), ExtResource("39_j1byw"), ExtResource("40_5yccs"), ExtResource("41_6v7xa"), ExtResource("42_f085d"), ExtResource("43_fo2s6"), ExtResource("44_p8y4y"), ExtResource("45_18xqt"), ExtResource("46_m62u4"), ExtResource("47_n0j21"), ExtResource("48_lt7yl"), ExtResource("49_pc7nb"), ExtResource("50_pd4wb"), ExtResource("51_ko125"), ExtResource("52_vc7tq"), ExtResource("53_8vnb0"), ExtResource("54_vyghi")]
+
+[node name="Card" parent="CardPile" instance=ExtResource("2_e6lx6")]
+layout_mode = 1
+offset_left = 77.0
+offset_top = 121.0
+offset_right = 227.0
+offset_bottom = 254.0
+
+[node name="EmptyCard" type="Sprite2D" parent="CardPile"]
+modulate = Color(1, 1, 1, 0.235294)
+position = Vector2(78, 271)
+scale = Vector2(2.15334, 2.22667)
+texture = ExtResource("3_q7xum")
+
+[node name="PlayerSide" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 241.0
+offset_top = -280.0
+offset_right = -36.0
+offset_bottom = 12.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.89634, 0.89634)
+
+[node name="Slot" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 247.0
+offset_top = 64.0
+offset_right = 397.0
+offset_bottom = 197.0
+
+[node name="Slot2" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 430.0
+offset_top = 64.0
+offset_right = 580.0
+offset_bottom = 197.0
+
+[node name="Slot3" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 613.0
+offset_top = 64.0
+offset_right = 763.0
+offset_bottom = 197.0
+
+[node name="Slot4" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 247.0
+offset_top = 220.0
+offset_right = 397.0
+offset_bottom = 353.0
+
+[node name="Slot5" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 430.0
+offset_top = 220.0
+offset_right = 580.0
+offset_bottom = 353.0
+
+[node name="Slot6" parent="PlayerSide" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 613.0
+offset_top = 220.0
+offset_right = 763.0
+offset_bottom = 353.0
+
+[node name="AI_Side" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 241.0
+offset_top = -595.0
+offset_right = -36.0
+offset_bottom = -303.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.89634, 0.89634)
+
+[node name="Slot" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 247.0
+offset_top = 64.0
+offset_right = 397.0
+offset_bottom = 197.0
+
+[node name="Slot2" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 430.0
+offset_top = 64.0
+offset_right = 580.0
+offset_bottom = 197.0
+
+[node name="Slot3" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 613.0
+offset_top = 64.0
+offset_right = 763.0
+offset_bottom = 197.0
+
+[node name="Slot4" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 247.0
+offset_top = 220.0
+offset_right = 397.0
+offset_bottom = 353.0
+
+[node name="Slot5" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 430.0
+offset_top = 220.0
+offset_right = 580.0
+offset_bottom = 353.0
+
+[node name="Slot6" parent="AI_Side" instance=ExtResource("4_2qwdl")]
+layout_mode = 1
+offset_left = 613.0
+offset_top = 220.0
+offset_right = 763.0
+offset_bottom = 353.0
+
+[node name="Divider" type="Line2D" parent="."]
+position = Vector2(77, 134)
+scale = Vector2(0.891824, 0.666667)
+points = PackedVector2Array(243, 308, 1032, 308)
+width = 3.0
+default_color = Color(0.826845, 0.999849, 0.863064, 1)

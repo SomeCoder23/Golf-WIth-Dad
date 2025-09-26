@@ -1,0 +1,13 @@
+[gd_scene load_steps=7 format=3 uid="uid://can20ogavbew2"]
+
+[ext_resource type="Script" path="res://Scripts/sound_manager.gd" id="1_aoexp"]
+[ext_resource type="AudioStream" uid="uid://srr34o64ysxf" path="res://Audio/cardSlide1.ogg" id="2_6ugke"]
+[ext_resource type="AudioStream" uid="uid://c18j84kmtq27e" path="res://Audio/cardSlide2.ogg" id="3_wyc5a"]
+[ext_resource type="AudioStream" uid="uid://bsbg0ksvrj4gx" path="res://Audio/cardSlide3.ogg" id="4_c0gil"]
+[ext_resource type="AudioStream" uid="uid://dgtgdg8eeouwo" path="res://Audio/cardPlace1.ogg" id="5_6c5a5"]
+[ext_resource type="AudioStream" uid="uid://boj6ldrtvee8" path="res://Audio/cardPlace2.ogg" id="6_njjaf"]
+
+[node name="SoundEffects" type="AudioStreamPlayer2D"]
+script = ExtResource("1_aoexp")
+cardSfx = [ExtResource("2_6ugke"), ExtResource("3_wyc5a"), ExtResource("4_c0gil")]
+cardFlipSfx = [ExtResource("5_6c5a5"), ExtResource("6_njjaf")]

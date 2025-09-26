@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://rpwlw08gs7kf"
+valid=false
+
+[deps]
+
+source_file="res://Art/CardSprites/PNG/Cards (small)/_cards.csv"
+
+[params]
+
+compress=true
+delimiter=0
